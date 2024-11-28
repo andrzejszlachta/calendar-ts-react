@@ -133,7 +133,7 @@ body {
   flex-grow: 1;
   overflow-y: auto;
   display: grid;
-  grid-template-columns: repeat(7, minmax(1, 1fr));
+  grid-template-columns: repeat(7, minmax(0, 1fr));
   grid-auto-rows: minmax(100px, 1fr);
   background-color: var(--border-color);
   gap: var(--border-size);
@@ -230,7 +230,7 @@ body {
 
 .all-day-event {
   color: white;
-  padding: 0.15rem 0, 25rem;
+  padding: 0.15rem 0.25rem;
   border-radius: 0.25rem;
 }
 
